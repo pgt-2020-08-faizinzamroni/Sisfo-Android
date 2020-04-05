@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Input_nilai"
+    android:background="@drawable/biru13">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_gravity="center_horizontal"
+            app:srcCompat="@drawable/app_icon" />
+        <TextView
+            android:id="@+id/textViewheader"
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:gravity="center"
+            android:text="Masukkan Nilai"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:background="@drawable/header"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/textViewnim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nim :"
+            android:layout_marginTop="10dp"
+            android:textSize="10dp"
+            android:textColor="#ffffff" />
+
+        <EditText
+            android:id="@+id/editTextnim"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/teks3"
+            android:ems="10"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:hint="Masukkan nim"
+            android:inputType="textPersonName"
+            android:textSize="15dp"
+            android:textColor="#000000"/>
+        <TextView
+            android:id="@+id/textViewkode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kode Mata Kuliah :"
+            android:layout_marginTop="10dp"
+            android:textSize="10dp"
+            android:textColor="#ffffff"/>
+
+        <EditText
+            android:id="@+id/editTextkode"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:ems="10"
+            android:background="@drawable/teks3"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:hint="Masukkan Kode"
+            android:inputType="textPersonName"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            />
+
+        <TextView
+            android:id="@+id/textViewnama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama mata kuliah :"
+            android:textSize="10dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"
+            />
+
+        <EditText
+            android:id="@+id/editTextnama"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:ems="10"
+            android:textSize="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/teks3"
+            android:textColor="#000000"
+            android:inputType="textPersonName"
+            android:hint="Masukkan nama mata kuliah" />
+
+        <TextView
+            android:id="@+id/textViewsks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sks :"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"
+            android:textSize="10dp" />
+
+        <EditText
+            android:id="@+id/editTextsks"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:ems="10"
+            android:background="@drawable/teks3"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:inputType="textPersonName"
+            android:hint="Masukkan Tempat Lahir"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:id="@+id/textViewprodi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Prodi :"
+            android:textColor="#ffffff"
+            android:layout_marginTop="10dp"
+            android:textSize="10dp"/>
+
+        <EditText
+            android:id="@+id/editTextprodi"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:ems="10"
+            android:textSize="15dp"
+            android:background="@drawable/teks3"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:inputType="textPersonName"
+            android:hint="Prodi.." />
+
+        <TextView
+            android:id="@+id/textViewtugas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tugas :"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"
+            android:textSize="10dp"/>
+
+        <EditText
+            android:id="@+id/editTexttugas"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:ems="10"
+            android:textSize="15dp"
+            android:gravity="center_vertical"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/teks3"
+            android:inputType="textPersonName"
+            android:hint="Nilai Tugas.." />
+        <TextView
+            android:id="@+id/textViewuts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="UTS :"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"
+            android:textSize="10dp"/>
+
+        <EditText
+            android:id="@+id/editTextuts"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:ems="10"
+            android:textSize="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/teks3"
+            android:inputType="textPersonName"
+            android:hint="Niali UTS" />
+
+        <TextView
+            android:id="@+id/textViewuas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="UTS :"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"
+            android:textSize="10dp"/>
+
+        <EditText
+            android:id="@+id/editTextuas"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:ems="10"
+            android:textSize="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/teks3"
+            android:inputType="textPersonName"
+            android:hint="Niali UTS" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Masukkan Data"
+            android:textSize="10dp"
+            android:textColor="#ffffff"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginRight="140dp"
+            android:background="@drawable/tombol2"
+            />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
